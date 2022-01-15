@@ -1,4 +1,7 @@
 # GKE HPA Setup
+
+![image](https://user-images.githubusercontent.com/8606113/149620318-8974a0ce-db63-47b9-89ea-c7c98d6ae161.png)
+
 This is a small PoC that setup a new GKE cluster, pub/sub topic, and service account to apply a custom metrics over the Pub/Sub topic that you can check under Cloud Monitoring and manage autoscale the deployment based on the number of topic undelivered messages.
 
 ## Setup
